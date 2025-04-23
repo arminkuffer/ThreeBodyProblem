@@ -8,9 +8,7 @@
 *.dll
 
 # === IDE/editor folders ===
-.vscode/c_cpp_properties.json
-.vscode/settings.json
-.vscode/launch.json
+.vscode/
 
 # === OS-specific files ===
 .DS_Store
