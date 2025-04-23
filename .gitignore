@@ -1,0 +1,27 @@
+# === C++ build files ===
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.so
+*.dll
+
+# === IDE/editor folders ===
+.vscode/c_cpp_properties.json
+.vscode/settings.json
+.vscode/launch.json
+
+# === OS-specific files ===
+.DS_Store
+Thumbs.db
+
+# === Logs, temp ===
+*.log
+*.tmp
+*.bak
+
+# === Backup or cache ===
+*.swp
+*.swo
+*.~*

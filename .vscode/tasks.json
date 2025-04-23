@@ -1,0 +1,35 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build SFML",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-o", "sfml-test",          // Compile the file and name it sfml-test
+                "main.cpp",                 // Your source code file
+                "-lsfml-graphics",          // Link SFML graphics library
+                "-lsfml-window",            // Link SFML window library
+                "-lsfml-system"             // Link SFML system library
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Compile the SFML program"
+        },
+        {
+            "label": "Run SFML Program",
+            "type": "shell",
+            "command": "./sfml-test",     // Run the compiled program
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "dependsOn": "Build SFML",     // Ensure the Build Task runs first
+            "problemMatcher": [],
+            "detail": "Run the SFML program"
+        }
+    ]
+}
