@@ -18,7 +18,7 @@ This project simulates the **three-body problem** in C++, where three celestial 
 - A C++ compiler (e.g., GCC, Clang)
 - **SFML** library installed
 
-### To Install SFML
+### How To Install SFML
 On **Linux** (e.g., Ubuntu):
 ```bash
 sudo apt-get install libsfml-dev
@@ -30,7 +30,7 @@ To compile the project, run the following command:
 ```bash
 g++ -o three-body-simulation main.cpp -lsfml-graphics -lsfml-window -lsfml-system
 ```
-This will generate an executable file that you can then run.
+This will generate an executable file which you can then run.
 
 ### Switching Between Methods
 By default, the simulation uses the Leapfrog method. If you'd like to experiment with the Runge-Kutta method instead, you can switch the methods by:
