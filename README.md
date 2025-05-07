@@ -1,10 +1,10 @@
 
 # Three-Body Simulation in C++
 
-This project simulates the **three-body problem** in C++, where three celestial bodies interact under gravitational forces. The simulation includes two numerical integration methods: **Runge-Kutta** and **Leapfrog**. 
+This project simulates the **three-body problem** in C++, where three spherical bodies interact under gravitational forces. The simulation includes two numerical integration methods: **Runge-Kutta** and **Leapfrog**. 
 
 ## Features
-- Simulates gravitational interactions between three celestial bodies.
+- Simulates the gravitational interactions between three spherical bodies in 2D.
 - Includes two numerical methods: **Runge-Kutta** and **Leapfrog**.
 - Visualizes the system using **SFML**.
 
