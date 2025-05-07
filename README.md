@@ -41,3 +41,8 @@ By default, the simulation uses the Leapfrog method. If you'd like to experiment
 
 Both methods can be found in the main() function of the code.
 
+### Use Other Initial Conditions
+By default, the simulation uses initial conditions that result in a figure-8 orbit.
+By changing the values of the initial positions (r1,r2,r3) and velocities (v1,v2,v3), you can experiment with other initial positions.
+
+
